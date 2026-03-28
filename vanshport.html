@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vansh portfolio</title>
+    <style>
+        body {
+            background-color: rgb(174, 174, 187);
+            color: white;
+
+
+        }
+
+        .page1 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 35px;
+            height: 70px;
+             background-color: rgb(90, 90, 97);
+
+        }
+
+        .page1 ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        .page1 ul li {
+            list-style: none;
+            margin: 0 20px;
+
+        }
+
+        .page1 ul li a {
+            width: max-content;
+            font-size: 72px;
+            position: relative;
+            cursor: pointer;
+            margin: 100px auto;
+        }
+        
+
+        .page1 ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 2pc;
+             transform: scaleX(1);
+             transition: 1s ease;
+
+        }
+
+        .page1 ul li a:hover {
+           color: rgb(0, 255, 17);   
+        } 
+
+        .Hleft {
+            font-size: 3pc;
+            font-style: italic;
+        }
+
+        .Hright {
+            margin-left: 400px;
+        }
+
+        
+      
+
+        .section1 {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+            align-items: center;
+
+        }
+
+        .section1>div {
+            width: 30%;
+
+
+        }
+
+        .leftsection {
+            margin: 30px 0;
+            font-size: 3rem;
+        }
+
+        .rightsection img {
+            border-radius: 50%;
+            color: 2px solid black;
+            width: 70%;
+            height: 20%;
+            transition: 3s;
+            
+        }
+        .rightsection img:hover{
+            border-radius: 50%;
+            color: 2px solid black;
+            width: 80%;
+            height: 20%;
+        }
+
+
+        .purple {
+            color: rgba(77, 5, 5, 0.897);
+        }
+
+        #element {
+            color: rgba(77, 5, 5, 0.897);
+        }
+
+       
+        .about {
+            margin-left: 900px;
+        }
+         .page2{
+            height: 800px;
+        }
+        .section2 {
+            display: flex;
+        }
+
+        .pABOUT {
+            margin-left: 60px;
+            margin-right: 200px;
+            font-size: 30px;
+        }
+
+        .leftsectionA img {
+            border-radius: 50%;
+            border: 2px solid rgb(16, 15, 15);
+        }
+
+        .page3{
+            height: 800px;
+        }
+        .page3 h1{
+            color: black;
+            margin-top: 50px;
+            margin-left: 150px;
+
+        }
+
+        .leftsection3 {
+           margin-left: 30px;
+          margin-right: 100px;
+             font-size: 2rem;
+        }
+        .flex3{
+            display: flex;
+        }
+        .rightsection3 img{
+            margin-right: 20px;
+             border-radius: 40%;
+            border: 2px solid rgb(16, 15, 15);
+
+        }
+
+       
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <div class="page1">
+
+
+            <div class="Hleft"> <b>vansh's <span style="color: rgba(77, 5, 5, 0.897);"> portfolio</span></b></div>
+
+            <div class="Hright">
+                <ul >
+                    <li><a href="/">home</a></li>
+                    <li><a href="/">about</a></li>
+                    <li><a href="/">servics</a></li>
+                    <li><a href="/">skills</a></li>
+                    <li><a href="/">project</a></li>
+                    <li><a href="/">contact me</a></li>
+                </ul>
+            </div>
+        
+    </header> 
+
+
+
+    
+        <section class="section1">
+
+            <div class="leftsection">
+                <b> Hi, my name is  <span class="purple">vansh</span>
+                    <div> i am a passinate</div>
+                    <div>web developer</div>
+                </b>
+
+                <!-- element -->
+                <span id="element"></span>
+                 <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script> 
+                <script>
+                    var typed = new Typed('#element', {
+                        strings: ['i am a begineer web developer', 'now i am learnig front stack python', 'and  i am good also in drawing'],
+                        typeSpeed: 50,
+                    });
+                </script>
+
+
+            </div>
+
+            <!-- photo  1-->
+            <div class="rightsection">
+                <img src="port.ani" alt="">
+
+            </div>
+        </section>
+
+         </div>
+    
+    <hr>
+    <br>
+    <hr>
+
+
+
+    <div class="page2">
+
+        <div class="about">
+            <h1 style="color: rgb(37, 38, 38);"><u>ALL ABOUT ME</U></h1>
+        </div>
+        <section class="section2">
+            <div class="leftsectionA">
+                <img src="lion port.webp" width="600px" height="600px">
+            </div>
+
+
+            <div class="rigthsectionA">
+                <p class="pABOUT">My name is Vansh. I am a dedicated and enthusiastic student with a strong interest in
+                    technology and web development. I enjoy learning how websites are created and how technology can be
+                    used to solve real-world problems.
+                    Personal Background
+                    I am from India. I consider myself a hardworking, disciplined, and motivated person. I believe in
+                    continuous learning and always try to improve my skills and knowledge.</p>
+            </div>
+            <hr>
+            <br><hr>
+
+        </section>
+
+    </div>
+    <hr>
+
+    <div class="page3">
+        <h1> <u>skills and  hobbies</u></h1>
+        <div class="flex3">
+        <div class="leftsection3">
+            <p>HTML and CSS
+                Basic JavaScript
+                Web page design
+                Problem-solving skills
+                Communication and teamwork</p>
+
+
+            <p>In my free time, I enjoy coding, listening to music, exploring new technologies, and learning new
+                skills online. I like staying updated with the latest trends in technology.</p>
+        </div>
+        <div class="rightsection3">
+            <img src="panther web.webp" alt="">
+            </div>
+
+        </div>
+    </div>
+    <hr>
+    <br><hr>
+
+    <div clas="page4">
+
+       <h2> Contact no:8010726699 <br>
+         email:nawgharevansh@gmail.com <br>
+        address: at.nilaj post.amgaon ta.pauni dist.bhandara</h2>
+
+    </div>
+
+</body>
+
+</html>
